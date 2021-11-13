@@ -1,0 +1,4 @@
+﻿  Button.cpp
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Button.cpp(19,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Button.cpp(94,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  sfml_teste_n1.vcxproj -> C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\Debug\sfml_teste_n1.exe
