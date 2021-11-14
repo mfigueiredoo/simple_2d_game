@@ -117,8 +117,6 @@ void GameEngine::controls_onClick(Menu &menu, sf::Event &e)
 
                 int selected_index = menu.controls.comboboxes[i].items[j].onClick(this->mouseOverRect(mousePos, rect_size, rect_pos));
 
-                std::cout << selected_index << std::endl;
-
                 if (selected_index != -1) {
                     menu.controls.comboboxes[i].selectedItemIndex = selected_index;
                     menu.controls.comboboxes[i].items[j].isSelected = true;    

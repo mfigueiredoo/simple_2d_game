@@ -75,9 +75,6 @@ int main()
     Label resolution_lbl = Label(gameEngine.configMenu.font, "Resolution:", buttonSize, sf::Vector2f(x, y + gameEngine.configMenu.verticalControlsSpacing * gameEngine.configMenu.controls.getButtonsLength()), 24.f, sf::Vector2f(36.f, 12.f));
     gameEngine.configMenu.controls.labels.push_back(resolution_lbl);
 
-
-    /*Button resolution_btn = Button(gameEngine.configMenu.font, "Resolution", "defaultName", buttonSize, sf::Vector2f(x, y + gameEngine.configMenu.verticalControlsSpacing * gameEngine.configMenu.controls.getButtonsLength()), 24.f, sf::Vector2f(36.f, 12.f));
-    gameEngine.configMenu.controls.buttons.push_back(resolution_btn);*/
     Button back_btn = Button(gameEngine.configMenu.font, "Back", "back_btn", buttonSize, sf::Vector2f(x, y + gameEngine.configMenu.verticalControlsSpacing * (gameEngine.configMenu.controls.getButtonsLength() + 1)), 24.f, sf::Vector2f(36.f, 12.f));
     gameEngine.configMenu.controls.buttons.push_back(back_btn);
 
