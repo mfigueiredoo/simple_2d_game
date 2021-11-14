@@ -1,28 +1,9 @@
-﻿  ComboBox.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\ComboBox.cpp(59,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\ComboBox.cpp(69,54): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  GUI_Controls.cpp
-  GameEngine.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\GameEngine.cpp(35,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\GameEngine.cpp(250,23): warning C4018: '<': signed/unsigned mismatch
-  ItemComboBox.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\ItemComboBox.cpp(43,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  Main.cpp
-  Menu.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Menu.cpp(24,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Menu.cpp(25,95): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Menu.cpp(25,67): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
+﻿  Label.cpp
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Label.cpp(52,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Label.cpp(94,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
   Generating code
-  3 of 1019 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    46 functions had inline decision re-evaluated but remain unchanged
+  3 of 1099 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   sfml_teste_n1.vcxproj -> C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\Release\sfml_teste_n1.exe

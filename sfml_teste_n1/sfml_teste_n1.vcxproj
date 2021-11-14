@@ -152,6 +152,7 @@
     <ClInclude Include="GUI_Controls.h" />
     <ClInclude Include="Intro.h" />
     <ClInclude Include="ItemComboBox.h" />
+    <ClInclude Include="Label.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="resource1.h" />
     <ClInclude Include="Textbox.h" />
@@ -171,6 +172,7 @@
     <ClCompile Include="GUI_Controls.cpp" />
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="ItemComboBox.cpp" />
+    <ClCompile Include="Label.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Textbox.cpp" />
     <ClCompile Include="WorldDecoration.cpp" />

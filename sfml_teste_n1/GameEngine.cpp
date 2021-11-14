@@ -111,13 +111,18 @@ void GameEngine::controls_onClick(Menu &menu, sf::Event &e)
 
             for (size_t j = 0; j < menu.controls.comboboxes[i].items.size(); j++)
             {
-                sf::Vector2i mousePos = sf::Vector2i(e.mouseMove.x, e.mouseMove.y);
+                sf::Vector2i mousePos = sf::Mouse::getPosition();
                 sf::Vector2f rect_pos = menu.controls.comboboxes[i].items[j].background.getPosition();
                 sf::Vector2f rect_size = sf::Vector2f(rect_pos.x + menu.controls.comboboxes[i].items[j].background.getGlobalBounds().width, rect_pos.y + menu.controls.comboboxes[i].items[j].background.getGlobalBounds().height);
 
                 int selected_index = menu.controls.comboboxes[i].items[j].onClick(this->mouseOverRect(mousePos, rect_size, rect_pos));
 
-                if (selected_index != -1) { menu.controls.comboboxes[i].selectedItemIndex = selected_index; }
+                std::cout << selected_index << std::endl;
+
+                if (selected_index != -1) {
+                    menu.controls.comboboxes[i].selectedItemIndex = selected_index;
+                    menu.controls.comboboxes[i].items[j].isSelected = true;    
+                }
 
             }
 

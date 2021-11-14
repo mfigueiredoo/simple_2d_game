@@ -66,6 +66,12 @@ void Menu::update()
 	{
 		this->controls.comboboxes[i].update();
 	}
+
+	//Labels
+	for (size_t i = 0; i < this->controls.labels.size(); i++)
+	{
+		this->controls.labels[i].update();
+	}
 }
 
 void Menu::render(sf::RenderWindow* win)
@@ -96,5 +102,12 @@ void Menu::render(sf::RenderWindow* win)
 		{
 			this->controls.comboboxes[i].render(win);
 		}
+
+		//Labels
+		for (size_t i = 0; i < this->controls.labels.size(); i++)
+		{
+			this->controls.labels[i].render(win);
+		}
+
 	}
 }

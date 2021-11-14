@@ -70,9 +70,11 @@ void ItemComboBox::onMouseOver(bool isMouseEntered)
 
 int ItemComboBox::onClick(bool isMouseEntered)
 {
+
 	this->isSelected = isMouseEntered;
 	if (this->isSelected) { return this->index; }
-	else { return -1; }
+
+	return -1;
 }
 
 void ItemComboBox::initVariables()

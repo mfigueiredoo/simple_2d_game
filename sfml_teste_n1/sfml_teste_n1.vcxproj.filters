@@ -90,6 +90,9 @@
     <ClInclude Include="ItemComboBox.h">
       <Filter>Header Files\GUI\controls</Filter>
     </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\GUI\controls</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -138,6 +141,9 @@
       <Filter>Source Files\GUI\controls</Filter>
     </ClCompile>
     <ClCompile Include="ItemComboBox.cpp">
+      <Filter>Source Files\GUI\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
       <Filter>Source Files\GUI\controls</Filter>
     </ClCompile>
   </ItemGroup>

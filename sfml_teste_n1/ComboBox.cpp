@@ -135,13 +135,16 @@ void ComboBox::update()
 
 	// Update Items
 	for (size_t i = 0; i < this->items.size(); i++) {
-		static bool isSelected = false;
-		if (this->selectedItemIndex == i) { isSelected = true; }
+
+		if (this->selectedItemIndex == this->items[i].index) {
+			this->items[i].isSelected = true;
+		}
+		else { this->items[i].isSelected = false; }
 
 		this->items[i].currentSize = this->background.getSize();
 		this->items[i].currentPosition = sf::Vector2f(this->background.getPosition().x, this->background.getPosition().y + this->background.getGlobalBounds().height + (i * this->items[i].currentSize.y));
 
-		this->items[i].update(isSelected);
+		this->items[i].update(this->items[i].isSelected);
 	}
 	
 	// Update ComboBox Control

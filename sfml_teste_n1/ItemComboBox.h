@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <string>
 #include <SFML/Graphics.hpp>
 
@@ -29,7 +30,7 @@ public:
 	sf::Text textComponent;
 
 	sf::Color bgDefaultColor = sf::Color(255, 255, 255, 255);
-	sf::Color bgMouseOverColor = sf::Color(255, 0, 0, 255);
+	sf::Color bgMouseOverColor = sf::Color(32, 32, 32, 255);
 	sf::Color bgSelectedColor = sf::Color(255, 255, 255, 255);
 
 	sf::Color txtDefaultColor = sf::Color(0, 0, 0, 255);
