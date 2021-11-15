@@ -9,7 +9,7 @@ World::World()
 World::World(sf::Texture* txt_background, sf::Texture *txt_tiles, std::string maps_pathName, float _tileSize, sf::Vector2f _screenSize, bool _isGridVisible)
 {
 	this->initVariables();
-	this->mapManager = MapManager(maps_pathName);
+	this->mapManager = FileManager(maps_pathName);
 
 	this->textureBackground = txt_background;
 	this->textureTiles = txt_tiles;
@@ -42,7 +42,7 @@ void World::initVariables()
 	this->horizontalLines = std::vector<sf::VertexArray>();
 
 	this->tiles = std::vector<WorldTile>();
-	this->mapManager = MapManager();
+	this->mapManager = FileManager();
 	this->background = Background();
 	this->isMapLoaded = false;
 

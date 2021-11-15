@@ -1,31 +1,123 @@
-﻿  Button.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Button.cpp(19,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Button.cpp(92,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  ComboBox.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\ComboBox.cpp(59,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\ComboBox.cpp(69,54): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  GUI_Controls.cpp
-  ItemComboBox.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\ItemComboBox.cpp(43,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  Label.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Label.cpp(52,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Label.cpp(94,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  Menu.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Menu.cpp(24,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Menu.cpp(25,95): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+﻿  Player.cpp
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(25,62): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
           with
           [
-              T=float
+              T=int
           ]
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Menu.cpp(25,67): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(25,56): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
           with
           [
-              T=float
+              T=int
           ]
-  GameEngine.cpp
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\GameEngine.cpp(35,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\GameEngine.cpp(253,23): warning C4018: '<': signed/unsigned mismatch
-  Main.cpp
-  Generating Code...
-C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\GUI_Controls.cpp(13): warning C4172: returning address of local variable or temporary
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(25,49): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(25,43): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(27,54): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(27,48): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(27,41): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(27,34): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(28,52): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(28,46): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(28,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(28,34): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(57,102): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(188,62): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(188,56): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(188,49): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(188,43): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(190,54): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(190,48): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(190,41): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(190,34): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(191,52): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(191,46): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(191,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\sfml_teste_n1\Player.cpp(191,34): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
   sfml_teste_n1.vcxproj -> C:\Users\Miguel Figueiredo\source\repos\sfml_teste_n1\Debug\sfml_teste_n1.exe

@@ -156,7 +156,7 @@ int main()
 
 
     // Game loop
-    while (gameEngine.window->isOpen())
+    while (gameEngine.window->isOpen() && gameEngine.window->isOpen() != NULL)
     {
 
         float deltaTime = clock.restart().asSeconds();

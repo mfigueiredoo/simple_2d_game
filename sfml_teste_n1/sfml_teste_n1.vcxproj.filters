@@ -42,9 +42,6 @@
     <ClInclude Include="GameEngine.h">
       <Filter>Header Files\entities</Filter>
     </ClInclude>
-    <ClInclude Include="MapManager.h">
-      <Filter>Header Files\entities</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Header Files\entities</Filter>
     </ClInclude>
@@ -93,6 +90,12 @@
     <ClInclude Include="Label.h">
       <Filter>Header Files\GUI\controls</Filter>
     </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -105,9 +108,6 @@
       <Filter>Source Files\entities</Filter>
     </ClCompile>
     <ClCompile Include="GameEngine.cpp">
-      <Filter>Source Files\entities</Filter>
-    </ClCompile>
-    <ClCompile Include="MapManager.cpp">
       <Filter>Source Files\entities</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
@@ -145,6 +145,12 @@
     </ClCompile>
     <ClCompile Include="Label.cpp">
       <Filter>Source Files\GUI\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\entities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

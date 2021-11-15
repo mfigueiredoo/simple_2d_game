@@ -3,10 +3,10 @@
 #include <iostream>
 #include <fstream>
 
-#ifndef MAPMANAGER_H
-#define MAPMANAGER_H
+#ifndef FILEMANAGER_H
+#define FILEMANAGER_H
 
-class MapManager
+class FileManager
 {
 private:
 
@@ -14,9 +14,9 @@ public:
 
 	std::string fileName;
 
-	MapManager();
-	MapManager(std::string maps_pathName);
-	~MapManager();
+	FileManager();
+	FileManager(std::string maps_pathName);
+	~FileManager();
 
 	void initVariables();
 

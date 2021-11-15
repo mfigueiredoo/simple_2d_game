@@ -22,10 +22,10 @@ Player::Player(sf::Vector2f _size, sf::Vector2f _pos)
 	this->sprite.setPosition(this->initialPosition);
 	this->sprite.setFillColor(sf::Color::White);
 
-	this->anim = PlayerAnimation(sf::IntRect(64.f, 128.f, this->initialSize.x, this->initialSize.y));
+	this->anim = PlayerAnimation(sf::IntRect(64.f, 128.f, 64.f, 64.f));
 
-	this->anim.walk_1 = sf::IntRect(128.f, 128.f, this->initialSize.x, this->initialSize.y);
-	this->anim.walk_2 = sf::IntRect(0.f, 128.f, this->initialSize.x, this->initialSize.y);
+	this->anim.walk_1 = sf::IntRect(128.f, 128.f, 64.f, 64.f);
+	this->anim.walk_2 = sf::IntRect(0.f, 128.f, 64.f, 64.f);
 }
 
 Player::~Player()
@@ -185,10 +185,10 @@ void Player::reset()
 	this->sprite.setPosition(this->initialPosition);
 	this->sprite.setFillColor(sf::Color::White);
 
-	this->anim = PlayerAnimation(sf::IntRect(64.f, 128.f, this->initialSize.x, this->initialSize.y));
+	this->anim = PlayerAnimation(sf::IntRect(64.f, 128.f, 64.f, 64.f));
 
-	this->anim.walk_1 = sf::IntRect(128.f, 128.f, this->initialSize.x, this->initialSize.y);
-	this->anim.walk_2 = sf::IntRect(0.f, 128.f, this->initialSize.x, this->initialSize.y);
+	this->anim.walk_1 = sf::IntRect(128.f, 128.f, 64.f, 64.f);
+	this->anim.walk_2 = sf::IntRect(0.f, 128.f, 64.f, 64.f);
 
 	this->isJumping = true;
 	this->isOnGround = false;

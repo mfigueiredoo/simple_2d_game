@@ -6,7 +6,7 @@
 
 #include "WorldTile.h"
 #include "WorldDecoration.h"
-#include "MapManager.h"
+#include "FileManager.h"
 #include "Background.h"
 
 #ifndef WORLD_H
@@ -36,7 +36,7 @@ public:
 	std::vector<WorldDecoration> decorations;
 	std::vector<sf::Vector3i> decorationsData;
 
-	MapManager mapManager;
+	FileManager mapManager;
 	Background background;
 
 	sf::Texture* textureTiles;
